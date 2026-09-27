@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Streamlit temporary / local
+.streamlit/secrets.toml
+
+# Logs and scratch tunnels
+*.log
+scratch/
+.DS_Store
+*.zip
+github_upload/
+

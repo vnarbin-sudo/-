@@ -1,0 +1,9 @@
+services:
+  export-twin:
+    build: .
+    container_name: belarus_export_twin
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data

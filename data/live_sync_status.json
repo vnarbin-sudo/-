@@ -1,0 +1,46 @@
+{
+  "last_sync_timestamp": "27.09.2026 19:24:59",
+  "status": "SUCCESS",
+  "sources": {
+    "NBRB": {
+      "status": "ONLINE",
+      "url": "https://api.nbrb.by",
+      "rates": {
+        "rate_usd_byn": 3.0316,
+        "rate_eur_byn": 3.4487,
+        "rate_cny_byn_per_10": 4.5305,
+        "rate_rub_byn_per_100": 3.5843
+      }
+    },
+    "GPK_BELBORDER": {
+      "status": "ONLINE",
+      "url": "https://gpk.gov.by",
+      "queues": {
+        "KOZLOVICHI": {
+          "queue_trucks": 0,
+          "queue_hours": 2.0,
+          "status": "NORMAL"
+        },
+        "KAMENNY_LOG": {
+          "queue_trucks": 0,
+          "queue_hours": 12.0,
+          "status": "NORMAL"
+        },
+        "GRIGOROVSHCHINA": {
+          "queue_trucks": 0,
+          "queue_hours": 6.0,
+          "status": "NORMAL"
+        }
+      }
+    },
+    "GLOBAL_COMMODITIES": {
+      "status": "ONLINE",
+      "quotes": {
+        "oil_brent_usd": 97.44,
+        "copper_usd": 14916.46,
+        "steel_hrc_usd": 685.0,
+        "freight_index_usd": 2850.0
+      }
+    }
+  }
+}
